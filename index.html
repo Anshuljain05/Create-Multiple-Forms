@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Multiple Forms</title>
+  </head>
+  <body>
+    <header>
+      <h2>Already Registered? <u>LOGIN</u> now</h2>
+
+      <form action="" method="post">
+        <label for="email">Email </label>
+        <input id="email" type="email" placeholder="abc@example.com" required />
+        <label for="password">Password </label>
+        <input id="password" type="password" required />
+
+        <button type="submit">
+          Login
+        </button>
+      </form>
+    </header>
+    <hr />
+    <br />
+    <br />
+
+    <main>
+      <section>
+        <h3>
+          <a href="https://www.codingninjas.com/blog/">
+            Coding Ninjas Blogs
+          </a>
+        </h3>
+        <img src="static/pic.png" alt="I love coding" width="100%" />
+        <br />
+        <hr />
+      </section>
+
+      <br />
+      <br />
+
+      <section>
+        <h2></h2>
+
+        <form action="" method="post">
+          <table>
+            <tr>
+              <td>
+                <label for="first_name">
+                  First Name:
+                </label>
+              </td>
+              <td>
+                <input type="text" id="first_name" name="first_name" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="last_name">
+                  Last Name:
+                </label>
+              </td>
+              <td>
+                <input type="text" id="last_name" name="last_name" />
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <label for="flat_no">
+                  Flat No./House No.
+                </label>
+                <input type="text" id="flat_no" name="flat_no" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Current Address:&nbsp;&nbsp;
+              </td>
+              <td>
+                <label for="locality">
+                  Locality
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </label>
+                <input type="text" id="locality" name="locality" />
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <label for="city">
+                  City &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+                </label>
+                <input type="text" id="city" name="city" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <b>
+                  <label for="current_address_same_as_permanent_address">
+                    Is Current Address and Permanent Address same?
+                  </label>
+                  <input
+                    type="radio"
+                    id="current_address_same_as_permanent_address"
+                    name="current_address_same_as_permanent_address"
+                    value="yes"
+                    checked
+                  />
+                  Yes&nbsp;
+                  <input
+                    type="radio"
+                    id="current_address_same_as_permanent_address"
+                    name="current_address_same_as_permanent_address"
+                    value="no"
+                  />
+                  No
+                </b>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">
+                  Email:
+                </label>
+              </td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="abc@gmail.com"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="password">
+                  Password:
+                </label>
+              </td>
+              <td>
+                <input type="password" id="password" name="password" required />
+              </td>
+            </tr>
+          </table>
+          <br />
+          <button type="submit">
+            Register
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
